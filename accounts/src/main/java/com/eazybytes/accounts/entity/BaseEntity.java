@@ -17,6 +17,7 @@ import java.time.LocalDateTime;
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 @Getter @Setter @ToString
+// this is a entity class where we use this class for person changed time and date.
 public class BaseEntity {
 
     @CreatedDate
